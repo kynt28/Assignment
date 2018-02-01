@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/ic_nav_thong_ke"
+            android:icon="@drawable/ic_line_chart_gray"
+            android:title="@string/title_nav_thong_ke" />
+        <item
+            android:id="@+id/ic_nav_thu"
+            android:icon="@drawable/ic_refund_gray"
+            android:title="@string/title_nav_khoan_thu" />
+        <item
+            android:id="@+id/ic_nav_chi"
+            android:icon="@drawable/ic_money_gray"
+            android:title="@string/title_nav_khoan_chi" />
+    </group>
+    <item android:title="@string/title_nav_khac">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/ic_nav_about"
+                    android:icon="@drawable/ic_setting_gray"
+                    android:title="@string/title_nav_gioi_thieu" />
+                <item
+                    android:id="@+id/ic_nav_thoat"
+                    android:icon="@drawable/ic_shutdown_gray"
+                    android:title="@string/title_nav_dang_xuat" />
+            </group>
+        </menu>
+    </item>
+</menu>

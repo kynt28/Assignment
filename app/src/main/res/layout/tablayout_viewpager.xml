@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/content_navigation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        app:tabGravity="fill"
+        android:layout_height="48dp"
+        app:tabMode="fixed"
+        app:tabTextColor="@color/gray"
+        app:tabSelectedTextColor="@color/white"
+        android:background="@android:color/holo_red_dark"
+        android:fitsSystemWindows="true"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:tabBackground="@color/cardview_shadow_end_color"
+        app:tabIndicatorColor="@color/white"
+        app:tabIndicatorHeight="2dp" />
+
+    <jtechteam.kynt.assignment.ui.customview.CustomViewPager
+        android:id="@+id/view_pager"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+</LinearLayout>

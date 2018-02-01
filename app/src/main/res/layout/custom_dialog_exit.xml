@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/custom_backgroud_gradient"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:text="Bạn muốn đăng xuất?"
+        android:textSize="21sp"
+        android:layout_marginBottom="19dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="24dp"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnNo"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/custom_while_rounded_button"
+            android:padding="12dp"
+            android:text="Không"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnYes"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/custom_while_rounded_button"
+            android:padding="12dp"
+            android:text="Có"/>
+    </LinearLayout>
+</LinearLayout>
